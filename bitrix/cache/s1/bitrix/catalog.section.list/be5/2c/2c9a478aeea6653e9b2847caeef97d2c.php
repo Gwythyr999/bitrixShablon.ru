@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001499336426';
-$dateexpire = '001535336426';
+$datecreate = '001499337700';
+$dateexpire = '001535337700';
 $ser_content = 'a:2:{s:7:"CONTENT";s:656:"<div class="bx_sitemap"><ul class="bx_sitemap_ul">
 	<li id="bx_1847241719_1"><h2 class="bx_sitemap_li_title"><a href="/products/1/">Мягкая мебель <span>(8)</span></a></h2></li>
 	<li id="bx_1847241719_2"><h2 class="bx_sitemap_li_title"><a href="/products/2/">Офисная мебель <span>(8)</span></a></h2></li>
