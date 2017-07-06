@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d30654-77fc-4a4c-bdeb-ffe4d7521c37" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b5/b5fef86cde416d168f79a4d2cbdd0e09.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e4/e46a7cd1240e5249e769c3b594014c74.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/agents/76/76ee4ad3b12ba3471b5273d26f48b51b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/agents/76/76ee4ad3b12ba3471b5273d26f48b51b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/67/676186d848f3e2c452a086a860975cfa.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/67/676186d848f3e2c452a086a860975cfa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/74/74ae411d554f04027801d562a04ad6e2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/74/74ae411d554f04027801d562a04ad6e2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b2/b2405e0fd2bec8e8480579e5f5fd3162.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b2/b2405e0fd2bec8e8480579e5f5fd3162.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/bd/bda1eed3dc15287945960c947a0cc6bc.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/bd/bda1eed3dc15287945960c947a0cc6bc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/inner/footer.php" afterPath="$PROJECT_DIR$/bitrix/templates/inner/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/inner/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/inner/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/inner/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/inner/template_styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +16,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
               <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/HTML/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="236" column="7" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="236" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/inner/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="859">
+              <caret line="108" column="26" lean-forward="false" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/inner/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" column="79" lean-forward="false" selection-start-line="89" selection-start-column="79" selection-end-line="89" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/inner/template_styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2950">
+              <caret line="1866" column="0" lean-forward="false" selection-start-line="1866" selection-start-column="0" selection-end-line="1866" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_blue/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,6 +89,9 @@
         <option value="$PROJECT_DIR$/bitrix/php_interface/init.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/company/otzyvy.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/inner/header.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/inner/footer.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/inner/template_styles.css" />
       </list>
     </option>
   </component>
@@ -140,6 +186,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="inner" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrixShablon.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrixShablon.ru" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="furniture_blue" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,17 +327,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499312948199</updated>
-      <workItem from="1499312949518" duration="5232000" />
+      <workItem from="1499312949518" duration="5529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5232000" />
+    <option name="totallyTimeSpent" value="5529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -404,6 +473,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/inner/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="108" column="26" lean-forward="false" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/HTML/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="236" column="7" lean-forward="false" selection-start-line="129" selection-start-column="16" selection-end-line="236" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/HTML/template_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1866" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/inner/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="79" lean-forward="false" selection-start-line="89" selection-start-column="79" selection-end-line="89" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_blue/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/inner/template_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2950">
+          <caret line="1866" column="0" lean-forward="false" selection-start-line="1866" selection-start-column="0" selection-end-line="1866" selection-end-column="0" />
           <folding />
         </state>
       </provider>
