@@ -1,17 +1,21 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?
+IncludeTemplateLangFile(__FILE__);
+?>
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-    <meta charset="windows-1251">
-    <title></title>
-    <link rel="stylesheet" href="template_style.css"/>
-    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="js/slides.min.jquery.js"></script>
-    <script type="text/javascript" src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
-
+    <?$APPLICATION->ShowHead();?>
+    <title><?$APPLICATION->ShowTitle()?></title>
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/functions.js"></script>
     <!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
+    <link rel="shortcut icon" type="image" href="<?=SITE_TEMPLATE_PATH?>/favicon.ico" />
 </head>
 <body>
+<?$APPLICATION->ShowPanel();?>
 <div class="wrap">
     <div class="hd_header_area">
         <div class="hd_header">
@@ -22,7 +26,7 @@
                     </td>
                     <td rowspan="2" class="hd_txarea">
                         <span class="tel">8 (495) 212-85-06</span>	<br/>
-                        время работы <span class="workhours">ежедневно с 9-00 до 18-00</span>
+                        <?=GetMessage('WORKING_TIME') ?> <span class="workhours">ежедневно с 9-00 до 18-00</span>
                     </td>
                     <td style="width:232px">
                         <form action="">
