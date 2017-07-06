@@ -39,6 +39,19 @@
         <h5><a href="">Мебельная полка всего за 560 Р</a></h5>
         <a href="" class="sb_action_more">Подробнее &rarr;</a>
     </div>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include",
+        ".default",
+        array(
+            "AREA_FILE_SHOW" => "sect",
+            "AREA_FILE_SUFFIX" => "inc",
+            "EDIT_TEMPLATE" => "",
+            "PATH" => "/include/phone.php",
+            "COMPONENT_TEMPLATE" => ".default",
+            "AREA_FILE_RECURSIVE" => "Y"
+        ),
+        false
+    );?>
     <div class="sb_reviewed">
         <img src="/bitrix/templates/.default/content/8.png" class="sb_rw_avatar" alt=""/>
         <span class="sb_rw_name">Сергей Антонов</span>
