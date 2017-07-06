@@ -7,12 +7,13 @@ IncludeTemplateLangFile(__FILE__);
 <head>
     <?$APPLICATION->ShowHead();?>
     <title><?$APPLICATION->ShowTitle()?></title>
-    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/slides.min.jquery.js"></script>
-    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.carouFredSel-6.1.0-packed.js"></script>
-    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/functions.js"></script>
+    <link rel="stylesheet" href="/bitrix/templates/.default/template_style.css" />
+    <script type="text/javascript" src="/bitrix/templates/.default/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="/bitrix/templates/.default/js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="/bitrix/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script type="text/javascript" src="/bitrix/templates/.default/js/functions.js"></script>
     <!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
-    <link rel="shortcut icon" type="image" href="<?=SITE_TEMPLATE_PATH?>/favicon.ico" />
+    <link rel="shortcut icon" type="image" href="<?=SITE_TEMPLATE_PATH?>/bitrix/templates/favicon.ico" />
 </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
