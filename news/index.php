@@ -83,4 +83,6 @@ $APPLICATION->SetTitle("Новости");
 	)
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);
+//$APPLICATION->AddChainItem();
+?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
