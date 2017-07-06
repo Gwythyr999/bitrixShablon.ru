@@ -14,6 +14,7 @@ IncludeTemplateLangFile(__FILE__);
     <script type="text/javascript" src="/bitrix/templates/.default/js/functions.js"></script>
 
     <!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
+    <link rel="shortcut icon" type="image" href="/bitrix/templates/.default/favicon.ico" />
 </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
@@ -64,7 +65,7 @@ IncludeTemplateLangFile(__FILE__);
             </table>
             <div class="nv_topnav">
                 <ul>
-                    <li><a class="menu-img-fon" style="background-image: url(images/nv_home.png);" href="/"><span></span></a></li>
+                    <li><a class="menu-img-fon" style="background-image: url(/bitrix/templates/.default/images/nv_home.png);" href="/"><span></span></a></li>
                     <li><a href=""><span>Компания</span></a>
                         <ul>
                             <li><a href="">Пункт 1</a></li>

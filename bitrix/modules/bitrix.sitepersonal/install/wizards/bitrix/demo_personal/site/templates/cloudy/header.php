@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?=LANGUAGE_ID?>" lang="<?=LANGUAGE_ID?>">
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/bitrix/templates/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/bitrix/templates/.default/favicon.ico" />
 <?$APPLICATION->ShowMeta("robots")?>
 <?$APPLICATION->ShowMeta("keywords")?>
 <?$APPLICATION->ShowMeta("description")?>

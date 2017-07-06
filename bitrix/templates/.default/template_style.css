@@ -1804,7 +1804,7 @@ color: #0073A3;
 }
 .review-pagination-prew-page:before,
 .review-pagination-next-page:before {
-	background:url("images/ctrl-btns.gif") no-repeat;
+	background:url("/bitrix/templates/.default/images/ctrl-btns.gif") no-repeat;
 	content:"";
 	height:17px;
 	position:absolute;
