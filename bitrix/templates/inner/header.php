@@ -24,13 +24,17 @@ IncludeTemplateLangFile(__FILE__);
     <div class="hd_header_area">
         <?include_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/templates/.default/include/header.php")?>
     </div>
-    <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumb", Array(
-        "PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
-        "SITE_ID" => "s1",	// Cайт (устанавливается в случае  многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
-        "START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
-    ),
-        false
-    );?>
+    <?$APPLICATION->IncludeComponent(
+	"bitrix:breadcrumb", 
+	"breadcrumb", 
+	array(
+		"PATH" => "",
+		"SITE_ID" => "s1",
+		"START_FROM" => "0",
+		"COMPONENT_TEMPLATE" => "breadcrumb"
+	),
+	false
+);?>
 
     <!--- // end header area --->
 
@@ -39,5 +43,5 @@ IncludeTemplateLangFile(__FILE__);
             <div class="mn_content">
                 <div class="main_post">
                     <div class="main_title">
-                        <p class="title">Заголовок страницы</p>
+                        <p class="title"><?$APPLICATION->ShowTitle('title')?></p>
                     </div>

@@ -17,7 +17,7 @@ foreach($arResult as $arItem):?>
 		<?if ($arItem["DEPTH_LEVEL"] == 1):?>
             <li class="<?if ($arItem["SELECTED"]):?>open current<?else:?>close<?endif?>">
                 <span class="sb_showchild"></span>
-                <a href="<?=$arItem["LINK"]?>">
+                <a href="">
                     <span><?=$arItem["TEXT"]?></span></a>
 				    <ul>
 		<?else:?>

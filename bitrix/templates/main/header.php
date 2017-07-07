@@ -235,7 +235,20 @@ IncludeTemplateLangFile(__FILE__);
         </div>
     </div>
 
+    <script type="text/javascript" >
+        $(document).ready(function(){
 
+            $("#foo").carouFredSel({
+                items:2,
+                prev:'#rwprev',
+                next:'#rwnext',
+                scroll:{
+                    items:1,
+                    duration:2000
+                }
+            });
+        });
+    </script>
 
     <div class="rw_reviewed">
         <div class="rw_slider">
