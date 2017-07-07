@@ -17,11 +17,18 @@
         false
     );?>
 
-    <div class="sb_event">
-        <div class="sb_event_header"><h4>Ближайшие события</h4></div>
-        <p><a href="">29 августа 2012, Москва</a></p>
-        <p>Семинар производителей мебели России и СНГ, Обсуждение тенденций.</p>
-    </div>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include",
+        ".default",
+        array(
+            "AREA_FILE_SHOW" => "sect",
+            "AREA_FILE_SUFFIX" => "event",
+            "EDIT_TEMPLATE" => "",
+            "COMPONENT_TEMPLATE" => ".default",
+            "AREA_FILE_RECURSIVE" => "Y"
+        ),
+        false
+    );?>
     <div class="sb_action">
         <a href=""><img src="/bitrix/templates/.default/content/11.png" alt=""/></a>
         <h4>Акция</h4>
