@@ -1,5 +1,6 @@
 </div>
 </div>
+
 <div class="sb_sidebar">
     <?$APPLICATION->IncludeComponent("bitrix:menu", "main.left.menu", Array(
         "ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
@@ -60,7 +61,9 @@
 <div class="clearboth"></div>
 </div>
 </div>
-<?include_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/templates/.default/include/footer.php")?>
 
+
+<?include_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/templates/.default/include/footer.php")?>
+</div>
 </body>
 </html>

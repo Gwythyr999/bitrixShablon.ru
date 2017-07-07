@@ -1,170 +1,170 @@
-2017-Jul-07 05:14:42 Наличие необходимых модулей php (check_php_modules): Ok
+2017-Jul-07 08:20:23 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2017-Jul-07 05:14:42 Обязательные параметры PHP (check_php_settings): Fail
-Ошибка! Значение max_input_vars должно быть не ниже 10000. Текущее значение: 1000
-2017-Jul-07 05:14:42 Модули веб-сервера (check_security): Ok
+2017-Jul-07 08:20:23 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2017-Jul-07 08:20:23 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2017-Jul-07 05:14:43 Значения переменных сервера (check_server_vars): Ok
+2017-Jul-07 08:20:23 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2017-Jul-07 05:14:43 Сохранение сессии (check_session): Ok
+2017-Jul-07 08:20:23 Сохранение сессии (check_session): Ok
 50% done
-2017-Jul-07 05:14:43 Сохранение сессии (check_session): Ok
+2017-Jul-07 08:20:24 Сохранение сессии (check_session): Ok
 Успешно
-2017-Jul-07 05:14:43 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2017-Jul-07 08:20:24 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2017-Jul-07 05:14:43 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2017-Jul-07 08:20:24 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2017-Jul-07 05:14:43 Работа с сокетами (check_socket): Ok
+2017-Jul-07 08:20:24 Работа с сокетами (check_socket): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:44 Параметры подключения к базе данных (check_dbconn_settings): Ok
+2017-Jul-07 08:20:24 Параметры подключения к базе данных (check_dbconn_settings): Ok
 Успешно
-2017-Jul-07 05:14:44 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+2017-Jul-07 08:20:24 Лишний вывод в файлах конфигурации (check_dbconn): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:44 Выполнение агентов на cron (check_bx_crontab): Warning
+2017-Jul-07 08:20:25 Выполнение агентов на cron (check_bx_crontab): Warning
 Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
-2017-Jul-07 05:14:44 Сохранение сессии без UserAgent (check_session_ua): Ok
+2017-Jul-07 08:20:25 Сохранение сессии без UserAgent (check_session_ua): Ok
 50% done
 Connection to bitrixshablon.ru:80	Success
 
-2017-Jul-07 05:14:45 Сохранение сессии без UserAgent (check_session_ua): Ok
+2017-Jul-07 08:20:25 Сохранение сессии без UserAgent (check_session_ua): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:45 Настройки сайтов (check_sites): Ok
+2017-Jul-07 08:20:25 Настройки сайтов (check_sites): Ok
 Правильные
-2017-Jul-07 05:14:45 Передача объектов по ссылке (check_clone): Ok
+2017-Jul-07 08:20:25 Передача объектов по ссылке (check_clone): Ok
 Успешно
-2017-Jul-07 05:14:45 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
+2017-Jul-07 08:20:26 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:45 Вызов method_exists на строке (check_method_exists): Ok
+2017-Jul-07 08:20:26 Вызов method_exists на строке (check_method_exists): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:45 Загрузка файла (check_upload): Ok
+2017-Jul-07 08:20:26 Загрузка файла (check_upload): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:46 Загрузка файла больше 4Мб (check_upload_big): Ok
+2017-Jul-07 08:20:26 Загрузка файла больше 4Мб (check_upload_big): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:46 Загрузка файла через php://input (check_upload_raw): Ok
+2017-Jul-07 08:20:26 Загрузка файла через php://input (check_upload_raw): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:46 Передача POST запроса с большим числом параметров (check_post): Ok
+2017-Jul-07 08:20:27 Передача POST запроса с большим числом параметров (check_post): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:46 Отправка почты (check_mail): Ok
+2017-Jul-07 08:20:27 Отправка почты (check_mail): Ok
 Успешно
-2017-Jul-07 05:14:46 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+2017-Jul-07 08:20:27 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
 Успешно
-2017-Jul-07 05:14:46 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+2017-Jul-07 08:20:27 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
 Успешно
-2017-Jul-07 05:14:47 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+2017-Jul-07 08:20:28 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
 50% done
 Connection to bitrixshablon.ru:80	Success
 
-2017-Jul-07 05:14:47 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+2017-Jul-07 08:20:28 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:47 Фактическое ограничение памяти (check_memory_limit): Ok
+2017-Jul-07 08:20:28 Фактическое ограничение памяти (check_memory_limit): Ok
 20% done
 Connection to bitrixshablon.ru:80	Success
 
-2017-Jul-07 05:14:47 Фактическое ограничение памяти (check_memory_limit): Ok
+2017-Jul-07 08:20:28 Фактическое ограничение памяти (check_memory_limit): Ok
 40% done
 Connection to bitrixshablon.ru:80	Success
 
-2017-Jul-07 05:14:47 Фактическое ограничение памяти (check_memory_limit): Ok
+2017-Jul-07 08:20:28 Фактическое ограничение памяти (check_memory_limit): Ok
 60% done
 Connection to bitrixshablon.ru:80	Success
 
-2017-Jul-07 05:14:47 Фактическое ограничение памяти (check_memory_limit): Ok
+2017-Jul-07 08:20:29 Фактическое ограничение памяти (check_memory_limit): Ok
 80% done
 Connection to bitrixshablon.ru:80	Success
 
-2017-Jul-07 05:14:48 Фактическое ограничение памяти (check_memory_limit): Ok
+2017-Jul-07 08:20:29 Фактическое ограничение памяти (check_memory_limit): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Не менее 256 М
-2017-Jul-07 05:14:48 Работа с файлами кеша (check_cache): Ok
+2017-Jul-07 08:20:29 Работа с файлами кеша (check_cache): Ok
 Успешно
-2017-Jul-07 05:14:49 Доступ к серверу обновлений (check_update): Ok
+2017-Jul-07 08:20:30 Доступ к серверу обновлений (check_update): Ok
 Успешно
-2017-Jul-07 05:14:49 HTTP авторизация (check_http_auth): Ok
+2017-Jul-07 08:20:30 HTTP авторизация (check_http_auth): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:49 Создание и запуск файла (check_exec): Ok
+2017-Jul-07 08:20:30 Создание и запуск файла (check_exec): Ok
 Connection to bitrixshablon.ru:80	Success
 
 Успешно
-2017-Jul-07 05:14:49 Функция getimagesize для swf (check_getimagesize): Ok
+2017-Jul-07 08:20:31 Функция getimagesize для swf (check_getimagesize): Ok
 Успешно
-2017-Jul-07 05:14:49 Версия MySQL-сервера (check_mysql_bug_version): Ok
+2017-Jul-07 08:20:31 Версия MySQL-сервера (check_mysql_bug_version): Ok
 Успешно
-2017-Jul-07 05:14:50 Время на БД и веб-сервере (check_mysql_time): Fail
+2017-Jul-07 08:20:32 Время на БД и веб-сервере (check_mysql_time): Fail
 Ошибка! Время отличается на 14400 секунд
-2017-Jul-07 05:14:50 Режим работы MySQL (check_mysql_mode): Ok
+2017-Jul-07 08:20:32 Режим работы MySQL (check_mysql_mode): Ok
 Успешно
-2017-Jul-07 05:14:50 Кодировка соединения (check_mysql_connection_charset): Ok
+2017-Jul-07 08:20:32 Кодировка соединения (check_mysql_connection_charset): Ok
 character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
 Успешно
-2017-Jul-07 05:14:50 Кодировка базы данных (check_mysql_db_charset): Ok
+2017-Jul-07 08:20:32 Кодировка базы данных (check_mysql_db_charset): Ok
 CHARSET=utf8, COLLATION=utf8_unicode_ci
 Успешно
-2017-Jul-07 05:14:52 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+2017-Jul-07 08:20:33 Кодировки таблиц в БД (check_mysql_table_charset): Ok
 Успешно
-2017-Jul-07 05:14:52 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:34 Структура базы данных (check_mysql_table_structure): Ok
 0% done
-2017-Jul-07 05:14:53 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:34 Структура базы данных (check_mysql_table_structure): Ok
 4% done
-2017-Jul-07 05:14:53 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:34 Структура базы данных (check_mysql_table_structure): Ok
 9% done
-2017-Jul-07 05:14:53 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:35 Структура базы данных (check_mysql_table_structure): Ok
 14% done
-2017-Jul-07 05:14:53 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:35 Структура базы данных (check_mysql_table_structure): Ok
 19% done
-2017-Jul-07 05:14:54 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:35 Структура базы данных (check_mysql_table_structure): Ok
 23% done
-2017-Jul-07 05:14:55 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:36 Структура базы данных (check_mysql_table_structure): Ok
 28% done
-2017-Jul-07 05:14:55 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:36 Структура базы данных (check_mysql_table_structure): Ok
 33% done
-2017-Jul-07 05:14:56 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:37 Структура базы данных (check_mysql_table_structure): Ok
 38% done
-2017-Jul-07 05:14:58 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:38 Структура базы данных (check_mysql_table_structure): Ok
 42% done
-2017-Jul-07 05:14:58 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:38 Структура базы данных (check_mysql_table_structure): Ok
 47% done
-2017-Jul-07 05:14:59 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:39 Структура базы данных (check_mysql_table_structure): Ok
 52% done
-2017-Jul-07 05:14:59 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:39 Структура базы данных (check_mysql_table_structure): Ok
 57% done
-2017-Jul-07 05:14:59 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:39 Структура базы данных (check_mysql_table_structure): Ok
 61% done
-2017-Jul-07 05:14:59 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:39 Структура базы данных (check_mysql_table_structure): Ok
 66% done
-2017-Jul-07 05:15:00 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:40 Структура базы данных (check_mysql_table_structure): Ok
 71% done
-2017-Jul-07 05:15:01 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:41 Структура базы данных (check_mysql_table_structure): Ok
 76% done
-2017-Jul-07 05:15:01 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:41 Структура базы данных (check_mysql_table_structure): Ok
 80% done
-2017-Jul-07 05:15:01 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:42 Структура базы данных (check_mysql_table_structure): Ok
 85% done
-2017-Jul-07 05:15:01 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:42 Структура базы данных (check_mysql_table_structure): Ok
 90% done
-2017-Jul-07 05:15:02 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:42 Структура базы данных (check_mysql_table_structure): Ok
 95% done
-2017-Jul-07 05:15:02 Структура базы данных (check_mysql_table_structure): Ok
+2017-Jul-07 08:20:42 Структура базы данных (check_mysql_table_structure): Ok
 Успешно
