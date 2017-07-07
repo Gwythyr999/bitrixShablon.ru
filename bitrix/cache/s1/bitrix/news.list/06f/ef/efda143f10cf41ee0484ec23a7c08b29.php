@@ -1,8 +1,22 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001499422377';
-$dateexpire = '001535422377';
-$ser_content = 'a:2:{s:7:"CONTENT";s:2176:"<div class="sl_slider" id="slides">
+$datecreate = '001499424197';
+$dateexpire = '001535424197';
+$ser_content = 'a:2:{s:7:"CONTENT";s:2504:"
+<script type="text/javascript" >
+    $().ready(function(){
+        $(function(){
+            $(\'#slides\').slides({
+                preload: true,
+                generateNextPrev: false,
+                autoHeight: true,
+                play: 4000,
+                effect: \'fade\'
+            });
+        });
+    });
+</script>
+<div class="sl_slider" id="slides">
     <div class="slides_container">
                         <div>
             <div>
@@ -11,9 +25,9 @@ $ser_content = 'a:2:{s:7:"CONTENT";s:2176:"<div class="sl_slider" id="slides">
                      alt="Диваны и кресла"
                      title="Диваны и кресла"/>
 
-                <h2><a href="/slider/detail.php?ID=34">Диваны и кресла</a></h2>
+                <h2><a href="/products/1/14">Диваны и кресла</a></h2>
                 <p>Новая комбинация для ТВ БЕСТО не просто предмет мебели – она разработана, также, для мультимедиа. Провода и сетевые кабели можно хранить внутри комбинации или протянуть через отверстие для вентиляции. Секция полок обеспечивает эффективное использование стены, освобождая место на полу.</p>
-                <a href="/slider/detail.php?ID=34" class="sl_more">Подробнее &rarr;</a>
+                <a href="/products/1/14" class="sl_more">Подробнее &rarr;</a>
             </div>
         </div>
                 <div>
@@ -23,9 +37,9 @@ $ser_content = 'a:2:{s:7:"CONTENT";s:2176:"<div class="sl_slider" id="slides">
                      alt="Кресла и диваны"
                      title="Кресла и диваны"/>
 
-                <h2><a href="/slider/detail.php?ID=33">Кресла и диваны</a></h2>
+                <h2><a href="/products/1/13">Кресла и диваны</a></h2>
                 <p>Новая комбинация для ТВ БЕСТО не просто предмет мебели – она разработана, также, для мультимедиа. Провода и сетевые кабели можно хранить внутри комбинации или протянуть через отверстие для вентиляции. Секция полок обеспечивает эффективное использование стены, освобождая место на полу.</p>
-                <a href="/slider/detail.php?ID=33" class="sl_more">Подробнее &rarr;</a>
+                <a href="/products/1/13" class="sl_more">Подробнее &rarr;</a>
             </div>
         </div>
             </div>
