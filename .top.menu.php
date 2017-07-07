@@ -1,8 +1,43 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Отзывы", 
-		"/company/otzyvy.php", 
+		"", 
+		"/", 
+		Array(), 
+		Array("IMG"=>"/bitrix/templates/.default/images/nv_home.png"), 
+		"" 
+	),
+	Array(
+		"Компания", 
+		"/company/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/new/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Каталог", 
+		"/products/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		"/aktsii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Партнерам", 
+		"/partneram/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -10,20 +45,6 @@ $aMenuLinks = Array(
 	Array(
 		"Контакты", 
 		"/contacts/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Руководство", 
-		"/company/management.php", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"История", 
-		"/company/history.php", 
 		Array(), 
 		Array(), 
 		"" 
