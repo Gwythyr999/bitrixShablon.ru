@@ -1,118 +1,18 @@
-2017-Jul-07 13:51:28 Наличие необходимых модулей php (check_php_modules): Ok
+2017-Jul-08 09:01:15 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2017-Jul-07 13:51:28 Обязательные параметры PHP (check_php_settings): Ok
+2017-Jul-08 09:01:15 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2017-Jul-07 13:51:28 Модули веб-сервера (check_security): Ok
+2017-Jul-08 09:01:15 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2017-Jul-07 13:51:28 Значения переменных сервера (check_server_vars): Ok
+2017-Jul-08 09:01:15 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2017-Jul-07 13:51:28 Сохранение сессии (check_session): Ok
+2017-Jul-08 09:01:15 Сохранение сессии (check_session): Ok
 50% done
-2017-Jul-07 13:51:28 Сохранение сессии (check_session): Ok
-Успешно
-2017-Jul-07 13:51:28 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2017-Jul-08 09:01:15 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2017-Jul-07 13:51:29 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2017-Jul-08 09:01:15 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2017-Jul-07 13:51:29 Работа с сокетами (check_socket): Ok
+2017-Jul-08 09:01:15 Работа с сокетами (check_socket): Ok
 Connection to bitrixshablon.ru:80	Success
 
-Успешно
-2017-Jul-07 13:51:29 Параметры подключения к базе данных (check_dbconn_settings): Ok
-Успешно
-2017-Jul-07 13:51:29 Лишний вывод в файлах конфигурации (check_dbconn): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:29 Выполнение агентов на cron (check_bx_crontab): Warning
-Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
-2017-Jul-07 13:51:30 Сохранение сессии без UserAgent (check_session_ua): Ok
-50% done
-Connection to bitrixshablon.ru:80	Success
-
-2017-Jul-07 13:51:30 Сохранение сессии без UserAgent (check_session_ua): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:30 Настройки сайтов (check_sites): Ok
-Правильные
-2017-Jul-07 13:51:30 Передача объектов по ссылке (check_clone): Ok
-Успешно
-2017-Jul-07 13:51:30 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:30 Вызов method_exists на строке (check_method_exists): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:31 Загрузка файла (check_upload): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:31 Загрузка файла больше 4Мб (check_upload_big): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:31 Загрузка файла через php://input (check_upload_raw): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:31 Передача POST запроса с большим числом параметров (check_post): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:31 Отправка почты (check_mail): Ok
-Успешно
-2017-Jul-07 13:51:32 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
-Успешно
-2017-Jul-07 13:51:32 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
-Успешно
-2017-Jul-07 13:51:32 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
-50% done
-Connection to bitrixshablon.ru:80	Success
-
-2017-Jul-07 13:51:32 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:32 Фактическое ограничение памяти (check_memory_limit): Ok
-20% done
-Connection to bitrixshablon.ru:80	Success
-
-2017-Jul-07 13:51:33 Фактическое ограничение памяти (check_memory_limit): Ok
-40% done
-Connection to bitrixshablon.ru:80	Success
-
-2017-Jul-07 13:51:33 Фактическое ограничение памяти (check_memory_limit): Ok
-60% done
-Connection to bitrixshablon.ru:80	Success
-
-2017-Jul-07 13:51:33 Фактическое ограничение памяти (check_memory_limit): Ok
-80% done
-Connection to bitrixshablon.ru:80	Success
-
-2017-Jul-07 13:51:33 Фактическое ограничение памяти (check_memory_limit): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Не менее 256 М
-2017-Jul-07 13:51:33 Работа с файлами кеша (check_cache): Ok
-Успешно
-2017-Jul-07 13:51:35 Доступ к серверу обновлений (check_update): Ok
-Успешно
-2017-Jul-07 13:51:35 HTTP авторизация (check_http_auth): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:35 Создание и запуск файла (check_exec): Ok
-Connection to bitrixshablon.ru:80	Success
-
-Успешно
-2017-Jul-07 13:51:35 Функция getimagesize для swf (check_getimagesize): Ok
-Успешно
-2017-Jul-07 13:51:35 Версия MySQL-сервера (check_mysql_bug_version): Ok
-Успешно
-2017-Jul-07 13:51:37 Время на БД и веб-сервере (check_mysql_time): Fail
-Ошибка! Время отличается на 14400 секунд
-2017-Jul-07 13:51:37 Режим работы MySQL (check_mysql_mode): Ok
 Успешно
