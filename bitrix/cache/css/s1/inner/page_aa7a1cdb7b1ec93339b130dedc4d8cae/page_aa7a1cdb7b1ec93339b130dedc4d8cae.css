@@ -1,0 +1,13 @@
+
+
+/* Start:/bitrix/templates/.default/components/bitrix/search.page/search.page/style.css?1499513583163*/
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+div.search-page-params {
+	margin-top: 6px;
+}
+.search-item-rate {font-size: 11px;}
+/* End */
+/* /bitrix/templates/.default/components/bitrix/search.page/search.page/style.css?1499513583163 */

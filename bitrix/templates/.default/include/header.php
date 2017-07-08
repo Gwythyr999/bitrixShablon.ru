@@ -31,12 +31,12 @@ IncludeTemplateLangFile(__FILE__);
                 <?=GetMessage('WORKING_TIME') ?> <span class="workhours">ежедневно с 9-00 до 18-00</span>
             </td>
             <td style="width:232px">
-                <form action="">
-                    <div class="hd_search_form" style="float:right;">
-                        <input placeholder="Поиск" type="text"/>
-                        <input type="submit" value=""/>
-                    </div>
-                </form>
+                <?$APPLICATION->IncludeComponent("bitrix:search.form", "search.form", Array(
+                    "PAGE" => "#SITE_DIR#search/index.php",	// Страница выдачи результатов поиска (доступен макрос #SITE_DIR#)
+                    "USE_SUGGEST" => "N",	// Показывать подсказку с поисковыми фразами
+                ),
+                    false
+                );?>
             </td>
         </tr>
         <tr>

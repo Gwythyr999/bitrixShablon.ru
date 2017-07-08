@@ -1,8 +1,8 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001499499509';
-$dateexpire = '001535499509';
-$ser_content = 'a:2:{s:7:"CONTENT";s:466:"
+$datecreate = '001499515038';
+$dateexpire = '001535515038';
+$ser_content = 'a:2:{s:7:"CONTENT";s:442:"
 <div class="sb_action">
     <a href=""><img src="/upload/iblock/a5b/a5b85ff14ea685f36605bf9bca8213c8.png"
                     width="70"
@@ -10,7 +10,7 @@ $ser_content = 'a:2:{s:7:"CONTENT";s:466:"
                     alt="Акция"
                     title="Акция" /></a>
     <h4>Акция</h4>
-    <h5><a href="/shares/detail.php?ID=39">Телевизор всего за 2000000</a></h5>
+    <h5><a href="">Телевизор всего за 2000000</a></h5>
     <a href="/aktsii/index.php" class="sb_action_more">Подробнее &rarr;</a>
 </div>
 

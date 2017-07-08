@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001499497567';
-$dateexpire = '001499501167';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{s:3:"pos";a:1:{s:8:"sections";s:257:"menu_system,menu_site,menu_fileman_file_s1_,menu_util,menu_iblock_/vacancies,iblock_admin,menu_medialib,menu_fileman_site_s1_,menu_templates,menu_iblock,menu_iblock_/products,menu_iblock_/slider,menu_iblock_/reviews,menu_iblock_/shares,menu_iblock_/shares/7";}}}';
+$datecreate = '001499514147';
+$dateexpire = '001499517747';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{s:3:"pos";a:1:{s:8:"sections";s:269:"menu_system,menu_site,menu_fileman_file_s1_,menu_util,menu_iblock_/vacancies,iblock_admin,menu_medialib,menu_fileman_site_s1_,menu_templates,menu_iblock,menu_iblock_/products,menu_iblock_/slider,menu_iblock_/reviews,menu_iblock_/shares,menu_iblock_/shares/7,menu_search";}}}';
 return true;
 ?>
