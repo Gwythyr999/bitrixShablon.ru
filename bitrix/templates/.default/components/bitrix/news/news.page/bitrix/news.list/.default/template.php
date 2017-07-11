@@ -11,6 +11,7 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+
 ?>
 <?if($arParams["DISPLAY_TOP_PAGER"]):?>
     <?=$arResult["NAV_STRING"]?><br />
@@ -28,6 +29,18 @@ $this->setFrameMode(true);
         <img src="<?=$arItem["DETAIL_PICTURE"]["src"]?>"
         align="left"/>
         <p><?echo $arItem["PREVIEW_TEXT"];?></p>
+        <p><?echo $arItem["DISPLAY_PROPERTIES"]["LINK_CAT"]["DISPLAY_VALUE"];?></p>
+        <p><?echo $arItem["PROPERTY_LINK_CAT_PREVIEW_TEXT"];?></p>
+        <?
+            if(isset($arResult["CAT_ELEM"][$arItem["PROPERTIES"]["LINK_CAT"]["VALUE"]]))
+            {
+                ?><a href="<?=$arResult["CAT_ELEM"][$arItem["PROPERTIES"]["LINK_CAT"]["VALUE"]]["DETAIL_PAGE_URL"]?>"><?=$arResult["CAT_ELEM"][$arItem["PROPERTIES"]["LINK_CAT"]["VALUE"]]["NAME"]?></a><?
+                ?><p><?=$arResult["CAT_ELEM"][$arItem["PROPERTIES"]["LINK_CAT"]["VALUE"]]["PROPERTY_PRICE_VALUE"]?></p><?
+                ?><p><?=$arResult["CAT_ELEM"][$arItem["PROPERTIES"]["LINK_CAT"]["VALUE"]]["PROPERTY_SIZE_VALUE"]?></p><?
+                ?>
+        <?
+            }
+        ?>
     </div>
 </div>
 <?endforeach;?>

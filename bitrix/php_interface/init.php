@@ -8,6 +8,7 @@ function FunctionName(params)
 	//code
 }
 */
+define("IBLOCK_CAT_ID",2);
 if(file_exists($_SERVER["DOCUMENT_ROOT"]."/bitrix/php_interface/include/functions.php"))
     require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/php_interface/include/functions.php");
 ?>

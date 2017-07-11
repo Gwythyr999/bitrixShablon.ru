@@ -42,11 +42,13 @@ $APPLICATION->SetTitle("Новости");
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"LIST_FIELD_CODE" => array(
 			0 => "DETAIL_PICTURE",
-			1 => "",
+			1 => "PROPERTY_LINK_CAT.PREVIEW_TEXT",
+			2 => "",
 		),
 		"LIST_PROPERTY_CODE" => array(
 			0 => "AUTHOR",
-			1 => "",
+			1 => "LINK_CAT",
+			2 => "",
 		),
 		"HIDE_LINK_WHEN_NO_DETAIL" => "Y",
 		"DISPLAY_NAME" => "Y",
@@ -60,7 +62,8 @@ $APPLICATION->SetTitle("Новости");
 		),
 		"DETAIL_PROPERTY_CODE" => array(
 			0 => "AUTHOR",
-			1 => "",
+			1 => "LINK_CAT",
+			2 => "",
 		),
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "N",

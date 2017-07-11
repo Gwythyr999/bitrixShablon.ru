@@ -6,4 +6,36 @@ foreach ($arResult["ITEMS"] as $ID=>$arItems){
     $arResult["ITEMS"][$ID]['DETAIL_PICTURE']=$arImage;
 }
 
+///
+$arTempID = array();
+
+foreach ($arResult["ITEMS"] as $elem){
+    $arTempID[] = $elem["PROPERTIES"]["LINK_CAT"]["VALUE"];
+
+}
+
+$arSort = false;
+$arFilter = array(
+    "IBLOCK_ID"=>IBLOCK_CAT_ID,
+    "ACTIVE"=> "Y",
+    "ID"=>$arTempID,
+);
+
+$arGroupBy = false;
+$arNavStartParams = array("nTopCount"=> 50);
+$arSelect = array("ID","NAME","DETAIL_PAGE_URL","PROPERTY_PRICE","PROPERTY_SIZE");
+$BDRes = CIBlockElement::GetList(
+    $arSort,
+    $arFilter,
+    $arGroupBy,
+    $arNavStartParams,
+    $arSelect
+);
+
+$arResult["CAT_ELEM"] = array();
+while ($arRes = $BDRes->GetNext()){
+    $arResult["CAT_ELEM"][$arRes["ID"]] = $arRes;
+}
+dump( $arResult["CAT_ELEM"][$arRes["ID"]]);
+
 ?>
