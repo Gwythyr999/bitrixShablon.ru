@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001499934004';
-$dateexpire = '001499934184';
+$datecreate = '001499939512';
+$dateexpire = '001499939692';
 $ser_content = 'a:2:{s:7:"CONTENT";s:331:"<!--\'start_frame_cache_12LVDR\'--><div class="sb_event">
     <div class="sb_event_header"><h4>Ближайшие события</h4></div>
     <p><a href="">13.07.2017, </a></p>

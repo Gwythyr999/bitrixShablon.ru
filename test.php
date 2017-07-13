@@ -2,28 +2,36 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Тест");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:menu",
+	"bitrix:desktop",
 	"",
 	Array(
-		"ALLOW_MULTI_SELECT" => "N",
-		"CHILD_MENU_TYPE" => "left",
-		"DELAY" => "N",
-		"MAX_LEVEL" => "1",
-		"MENU_CACHE_GET_VARS" => array(""),
-		"MENU_CACHE_TIME" => "3600",
-		"MENU_CACHE_TYPE" => "N",
-		"MENU_CACHE_USE_GROUPS" => "Y",
-		"ROOT_MENU_TYPE" => "left",
-		"USE_EXT" => "N"
+		"CAN_EDIT" => "Y",
+		"COLUMNS" => "3",
+		"COLUMN_WIDTH_0" => "33%",
+		"COLUMN_WIDTH_1" => "33%",
+		"COLUMN_WIDTH_2" => "33%",
+		"GADGETS" => array("ALL"),
+		"GU_FAVORITES_TITLE_STD" => "",
+		"GU_HTML_AREA_TITLE_STD" => "",
+		"GU_PROBKI_CITY" => "c213",
+		"GU_PROBKI_TITLE_STD" => "",
+		"GU_PRODUCTS_ELEMENT_COUNT" => "5",
+		"GU_PRODUCTS_SHOW_UNACTIVE_ELEMENTS" => "Y",
+		"GU_PRODUCTS_TITLE_STD" => "Товары",
+		"GU_RSSREADER_CNT" => "10",
+		"GU_RSSREADER_IS_HTML" => "N",
+		"GU_RSSREADER_RSS_URL" => "",
+		"GU_RSSREADER_TITLE_STD" => "",
+		"GU_WEATHER_CITY" => "c213",
+		"GU_WEATHER_TITLE_STD" => "",
+		"G_PROBKI_CACHE_TIME" => "3600",
+		"G_PROBKI_SHOW_URL" => "N",
+		"G_PRODUCTS_IBLOCK_ID" => "2",
+		"G_RSSREADER_CACHE_TIME" => "3600",
+		"G_RSSREADER_PREDEFINED_RSS" => "",
+		"G_RSSREADER_SHOW_URL" => "N",
+		"G_WEATHER_CACHE_TIME" => "3600",
+		"G_WEATHER_SHOW_URL" => "N",
+		"ID" => "holder1"
 	)
-);?><?$APPLICATION->IncludeComponent("mycomponents:last.event", "last_event", Array(
-	"CACHE_GROUPS" => "Y",	// Учитывать права доступа
-		"CACHE_TIME" => "180",	// Время кеширования (сек.)
-		"CACHE_TYPE" => "A",	// Тип кеширования
-		"DETAIL_URL" => "",	// URL, ведущий на страницу с содержимым элемента раздела
-		"IBLOCK_ID" => "12",	// Инфоблок
-		"IBLOCK_TYPE" => "partners",	// Тип инфоблока
-		"PARENT_SECTION" => "",	// ID раздела
-	),
-	false
 );?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
