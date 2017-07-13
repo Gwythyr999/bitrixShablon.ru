@@ -1,14 +1,10 @@
 <?
-/*
-You can place here your functions and event handlers
-
-AddEventHandler("module", "EventName", "FunctionName");
-function FunctionName(params)
-{
-	//code
-}
-*/
-define("IBLOCK_CAT_ID",2);
 if(file_exists($_SERVER["DOCUMENT_ROOT"]."/bitrix/php_interface/include/functions.php"))
     require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/php_interface/include/functions.php");
+
+if(file_exists($_SERVER["DOCUMENT_ROOT"]."/bitrix/php_interface/include/event_handlers.php"))
+    require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/php_interface/include/event_handlers.php");
+
+if(file_exists($_SERVER["DOCUMENT_ROOT"]."/bitrix/php_interface/include/constans.php"))
+    require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/php_interface/include/constans.php");
 ?>

@@ -16,4 +16,21 @@ $APPLICATION->SetTitle("Тест");
 		"ROOT_MENU_TYPE" => "left",
 		"USE_EXT" => "N"
 	)
+);?><?$APPLICATION->IncludeComponent(
+	"mycomponents:photo.random", 
+	".default", 
+	array(
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "180",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"IBLOCKS_PROP" => "15",
+		"IBLOCK_ID" => "2",
+		"IBLOCK_TYPE" => "products",
+		"IMG_HEIGHT" => "96",
+		"IMG_WIDTH" => "130",
+		"PARENT_SECTION" => "",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
 );?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

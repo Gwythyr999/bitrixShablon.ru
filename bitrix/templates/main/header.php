@@ -151,21 +151,66 @@ IncludeTemplateLangFile(__FILE__);
             <div class="cn_hp_post">
                 <div class="cn_hp_post_new">
                     <h3>Новинки</h3>
-                    <img src="/bitrix/templates/.default/content/7.png" alt=""/>
-                    <p>Угловой диван "Титаник", с большим выбором расцветок и фактур.</p>
-                    <div class="clearboth"></div>
+                    <?$APPLICATION->IncludeComponent(
+	"mycomponents:photo.random", 
+	".default", 
+	array(
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "180",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"IBLOCKS_PROP" => "17",
+		"IBLOCK_ID" => "2",
+		"IBLOCK_TYPE" => "products",
+		"IMG_HEIGHT" => "96",
+		"IMG_WIDTH" => "130",
+		"PARENT_SECTION" => "",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
                 </div>
                 <div class="cn_hp_post_action">
                     <h3>Акции</h3>
-                    <img src="/bitrix/templates/.default/content/7.png" alt=""/>
-                    <p>Угловой диван "Титаник", с большим выбором расцветок и фактур.</p>
-                    <div class="clearboth"></div>
+                    <?$APPLICATION->IncludeComponent(
+	"mycomponents:photo.random", 
+	".default", 
+	array(
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "180",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"IBLOCKS_PROP" => "15",
+		"IBLOCK_ID" => "2",
+		"IBLOCK_TYPE" => "products",
+		"IMG_HEIGHT" => "96",
+		"IMG_WIDTH" => "130",
+		"PARENT_SECTION" => "",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
                 </div>
                 <div class="cn_hp_post_bestsellersn">
                     <h3>Хиты продаж</h3>
-                    <img src="/bitrix/templates/.default/content/7.png" alt=""/>
-                    <p>Угловой диван "Титаник", с большим выбором расцветок и фактур.</p>
-                    <div class="clearboth"></div>
+                    <?$APPLICATION->IncludeComponent(
+	"mycomponents:photo.random", 
+	".default", 
+	array(
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "180",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"IBLOCKS_PROP" => "16",
+		"IBLOCK_ID" => "2",
+		"IBLOCK_TYPE" => "products",
+		"IMG_HEIGHT" => "96",
+		"IMG_WIDTH" => "130",
+		"PARENT_SECTION" => "",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
                 </div>
             </div>
 

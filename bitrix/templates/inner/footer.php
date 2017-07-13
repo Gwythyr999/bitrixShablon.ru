@@ -6,7 +6,7 @@
 	"bitrix:menu", 
 	"main.left.menu", 
 	array(
-		"ALLOW_MULTI_SELECT" => "Y",
+		"ALLOW_MULTI_SELECT" => "N",
 		"CHILD_MENU_TYPE" => "left",
 		"DELAY" => "N",
 		"MAX_LEVEL" => "2",

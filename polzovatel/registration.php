@@ -1,27 +1,21 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Регистрация");
-?>
-<?
-if(!$USER->IsAuthorized())
-{?>
-
-    <?
-    $APPLICATION->IncludeComponent(
+?><?
+if(!$USER->IsAuthorized()) {
+    ?>
+    <? $APPLICATION->IncludeComponent(
         "bitrix:main.register",
         "",
         Array(
-            "USER_PROPERTY_NAME" => "",
-            "SHOW_FIELDS" => array("NAME","EMAIL","PERSONAL_PHONE"),
-            "REQUIRED_FIELDS" => array("NAME","EMAIL", "PERSONAL_PHONE"),
             "AUTH" => "Y",
-            "USE_BACKURL" => "Y",
-            "SUCCESS_PAGE" => "",
+            "REQUIRED_FIELDS" => array("EMAIL", "NAME", "LAST_NAME", "PERSONAL_PHONE"),
             "SET_TITLE" => "N",
-            "USER_PROPERTY" => array()
+            "SHOW_FIELDS" => array("EMAIL", "NAME", "PERSONAL_PHONE", "LAST_NAME"),
+            "SUCCESS_PAGE" => "",
+            "USER_PROPERTY" => array(),
+            "USER_PROPERTY_NAME" => "",
+            "USE_BACKURL" => "Y"
         )
     );
-    $_REQUEST["REGISTER[LOGIN]"] = $_REQUEST["REGISTER[EMAIL]"];
-} elseif(!empty( $_REQUEST["backurl"] )) {LocalRedirect( $_REQUEST["backurl"] );} else { LocalRedirect(SITE_DIR.'personal/');}
-?>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+}elseif(!empty( $_REQUEST["backurl"] )) {LocalRedirect( $_REQUEST["backurl"] );} else { LocalRedirect(SITE_DIR.'');}?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

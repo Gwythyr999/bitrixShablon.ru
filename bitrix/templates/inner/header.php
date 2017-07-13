@@ -43,5 +43,6 @@ IncludeTemplateLangFile(__FILE__);
             <div class="mn_content">
                 <div class="main_post">
                     <div class="main_title">
-                        <p class="title"><?$APPLICATION->ShowTitle('title')?></p>
+                        <h1><?$APPLICATION->ShowTitle('false')?></h1>
+                        <?=$APPLICATION->ShowViewContent("news_detail_date")?>
                     </div>

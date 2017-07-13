@@ -1,8 +1,8 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001499766415';
-$dateexpire = '001535766415';
-$ser_content = 'a:2:{s:7:"CONTENT";s:451:"
+$datecreate = '001499930216';
+$dateexpire = '001535930216';
+$ser_content = 'a:2:{s:7:"CONTENT";s:470:"
 <div class="sb_action">
     <a href=""><img src="/upload/iblock/20e/20efd233772bcae36f0d002d1d45125a.png"
                     width="80"
@@ -10,7 +10,7 @@ $ser_content = 'a:2:{s:7:"CONTENT";s:451:"
                     alt="Акция"
                     title="Акция" /></a>
     <h4>Акция</h4>
-    <h5><a href="">Мебельная полка всего за 550р</a></h5>
+    <h5><a href="">Мебельная полка всего за такую цену550р</a></h5>
     <a href="/aktsii/index.php" class="sb_action_more">Подробнее &rarr;</a>
 </div>
 
