@@ -8,9 +8,8 @@ if(!isset($arParams["CACHE_TIME"]))
     $arParams["CACHE_TIME"] = 180;
 
 $arParams['IBLOCK_ID'] = intval($arParams['IBLOCK_ID']);
-$arParams['IBLOCKS_PROP'] = intval($arParams['IBLOCKS_PROP']);
 
-if($arParams['IBLOCK_ID'] > 0 && $arParams['IBLOCKS_PROP'] > 0 && $this->StartResultCache(false, ($arParams["CACHE_GROUPS"]==="N"? false: $USER->GetGroups())))
+if($arParams['IBLOCK_ID'] > 0 && $this->StartResultCache(false, ($arParams["CACHE_GROUPS"]==="N"? false: $USER->GetGroups())))
 {
     if(!CModule::IncludeModule("iblock"))
     {
@@ -26,16 +25,15 @@ if($arParams['IBLOCK_ID'] > 0 && $arParams['IBLOCKS_PROP'] > 0 && $this->StartRe
         "IBLOCK_SECTION_ID",
         "NAME",
         "PREVIEW_TEXT",
-        "DETAIL_PICTURE",
         "DETAIL_PAGE_URL",
+        "PROPERTY_CITY",
     );
     //WHERE
     $arFilter = array(
         "IBLOCK_ID" => $arParams["IBLOCK_ID"],
-        "ACTIVE_DATE" => "Y",
         "ACTIVE"=>"Y",
         "CHECK_PERMISSIONS"=>"Y",
-        "!PROPERTY_".$arParams['IBLOCKS_PROP'] => false,
+        ">=DATE_ACTIVE_FROM" =>ConvertTimeStamp(false,"SHORT"),
     );
     if($arParams["PARENT_SECTION"]>0)
     {
@@ -44,16 +42,14 @@ if($arParams['IBLOCK_ID'] > 0 && $arParams['IBLOCKS_PROP'] > 0 && $this->StartRe
     }
     //ORDER BY
     $arSort = array(
-        "RAND"=>"ASC",
+        "DATE_ACTIVE_FROM"=>"ASC",
     );
     //EXECUTE
     $rsIBlockElement = CIBlockElement::GetList($arSort, $arFilter, false, false, $arSelect);
     $rsIBlockElement->SetUrlTemplates($arParams["DETAIL_URL"]);
     if($arResult = $rsIBlockElement->GetNext())
     {
-        $arResult["PICTURE"] = CFile::ResizeImageGet($arResult['DETAIL_PICTURE'], array('width'=>$arParams['IMG_WIDTH'], 'height'=>$arParams['IMG_HEIGHT']), BX_RESIZE_IMAGE_PROPORTIONAL, true);
-
-        $this->SetResultCacheKeys(array(
+       $this->SetResultCacheKeys(array(
         ));
         $this->IncludeComponentTemplate();
     }

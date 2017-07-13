@@ -1,5 +1,5 @@
 <?
-$MESS ['T_IBLOCK_DESC_CAT_LIST'] = "Случайный элемент";
-$MESS ['T_IBLOCK_DESC_CAT_DESC'] = "Показывает один произвольный элемент";
-$MESS ['T_IBLOCK_DESC_CAT'] = "Расширение каталога";
+$MESS ['T_IBLOCK_DESC_LAST_EVENT_LIST'] = "Последнее мероприятие";
+$MESS ['T_IBLOCK_DESC_LAST_EVENT_DESC'] = "Показывает последнее мероприятие";
+$MESS ['T_IBLOCK_DESC_LAST_EVENT'] = "Расширение каталога";
 ?>

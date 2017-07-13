@@ -34,6 +34,17 @@
         ),
         false
     );?>
+    <?$APPLICATION->IncludeComponent("mycomponents:last.event", "last_event", Array(
+        "CACHE_GROUPS" => "Y",	// Учитывать права доступа
+        "CACHE_TIME" => "180",	// Время кеширования (сек.)
+        "CACHE_TYPE" => "A",	// Тип кеширования
+        "DETAIL_URL" => "",	// URL, ведущий на страницу с содержимым элемента раздела
+        "IBLOCK_ID" => "12",	// Инфоблок
+        "IBLOCK_TYPE" => "partners",	// Тип инфоблока
+        "PARENT_SECTION" => "",	// ID раздела
+    ),
+        false
+    );?>
     <?$APPLICATION->IncludeComponent("bitrix:news.list", "shares.inner", Array(
         "ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
         "ADD_SECTIONS_CHAIN" => "N",	// Включать раздел в цепочку навигации

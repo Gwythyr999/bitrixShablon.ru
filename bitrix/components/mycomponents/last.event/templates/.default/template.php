@@ -12,8 +12,8 @@
 /** @var CBitrixComponent $component */
 $frame = $this->createFrame()->begin('');
 ?>
-    <?if(is_array($arResult["PICTURE"])):?>
-        <img src="<?=$arResult["PICTURE"]["src"]?>" alt="<?=$arResult['NAME']?>" />
-    <?endif?>
+<div class="photo-random">
+    <?=$arResult["NAME"]?>
     <p><?=substr($arResult['PREVIEW_TEXT'],0,70)?>...</p>
-<div class="clearboth"></div>
+    <div class="clearboth"></div>
+</div>

@@ -16,21 +16,14 @@ $APPLICATION->SetTitle("Тест");
 		"ROOT_MENU_TYPE" => "left",
 		"USE_EXT" => "N"
 	)
-);?><?$APPLICATION->IncludeComponent(
-	"mycomponents:photo.random", 
-	".default", 
-	array(
-		"CACHE_GROUPS" => "Y",
-		"CACHE_TIME" => "180",
-		"CACHE_TYPE" => "A",
-		"DETAIL_URL" => "",
-		"IBLOCKS_PROP" => "15",
-		"IBLOCK_ID" => "2",
-		"IBLOCK_TYPE" => "products",
-		"IMG_HEIGHT" => "96",
-		"IMG_WIDTH" => "130",
-		"PARENT_SECTION" => "",
-		"COMPONENT_TEMPLATE" => ".default"
+);?><?$APPLICATION->IncludeComponent("mycomponents:last.event", "last_event", Array(
+	"CACHE_GROUPS" => "Y",	// Учитывать права доступа
+		"CACHE_TIME" => "180",	// Время кеширования (сек.)
+		"CACHE_TYPE" => "A",	// Тип кеширования
+		"DETAIL_URL" => "",	// URL, ведущий на страницу с содержимым элемента раздела
+		"IBLOCK_ID" => "12",	// Инфоблок
+		"IBLOCK_TYPE" => "partners",	// Тип инфоблока
+		"PARENT_SECTION" => "",	// ID раздела
 	),
 	false
 );?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
