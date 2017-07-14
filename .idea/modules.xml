@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../bitrixtest.ru/.idea/bitrix.intervolga.ru.iml" filepath="$PROJECT_DIR$/../bitrixtest.ru/.idea/bitrix.intervolga.ru.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bitrixShablon.ru.iml" filepath="$PROJECT_DIR$/.idea/bitrixShablon.ru.iml" />
     </modules>
   </component>

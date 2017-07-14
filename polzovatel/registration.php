@@ -18,4 +18,4 @@ if(!$USER->IsAuthorized()) {
             "USE_BACKURL" => "Y"
         )
     );
-}elseif(!empty( $_REQUEST["backurl"] )) {LocalRedirect( $_REQUEST["backurl"] );} else { LocalRedirect(SITE_DIR.'');}?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+}elseif(!empty( $_REQUEST["backurl"] )) {LocalRedirect( $_REQUEST["backurl"] );} else { LocalRedirect(SITE_DIR.'/');}?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
